@@ -3,6 +3,12 @@ function App() {
     return (
         <Container>
             <Row>
+                <Col>
+                    <h1 className="text-center my-4">Title</h1>
+                </Col>
+            </Row>
+
+            <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
